@@ -1,5 +1,5 @@
 //
-//  serialDevice.h
+//  USBDevice.h
 //  TestXbee
 //
 //  Created by Arjun Passi on 5/5/15.
