@@ -2,6 +2,10 @@ Setting up TCP/IP Server on Wifly
 For more information checkout: 
 http://ww1.microchip.com/downloads/en/DeviceDoc/50002230A.pdf
 
+# Example Wifly Setting
+<img src="https://cloud.githubusercontent.com/assets/6227984/12005720/7ba106ea-ab82-11e5-8fb6-8e6f8d376dd1.png" width=250>
+<img src="https://cloud.githubusercontent.com/assets/6227984/12005723/8c17e9e4-ab82-11e5-958e-7e34c6440ed6.png" width=200>
+
 ### set wlan ssid <string>
 
 This command sets the SSID with which the module associates, where <string> is 1 to
