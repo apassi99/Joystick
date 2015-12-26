@@ -28,7 +28,6 @@ public:
     
 private:
     USBDevice();
-    void setupUSB(std::string, int);
     void setupUSB(const char*, int);
     int fd;
     int baud;
