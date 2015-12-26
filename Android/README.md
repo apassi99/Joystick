@@ -3,3 +3,5 @@ This is a Joystick project which provides an android application that connects w
 
 Android Code screen shots
 
+![alt tag] (https://cloud.githubusercontent.com/assets/6227984/12005630/db9bb98c-ab7d-11e5-9bf2-e3ab1ec04e66.jpg)
+![alt tag] (https://cloud.githubusercontent.com/assets/6227984/12005627/d710eb3a-ab7d-11e5-9918-30da5da1e377.jpg)
