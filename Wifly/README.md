@@ -2,12 +2,12 @@ Setting up TCP/IP Server on Wifly
 For more information checkout: 
 http://ww1.microchip.com/downloads/en/DeviceDoc/50002230A.pdf
 
-set wlan ssid <string>
+### set wlan ssid <string>
 
 This command sets the SSID with which the module associates, where <string> is 1 to
 32 characters (32 bytes).
 
-set ip address <address>
+### set ip address <address>
 
 This command sets a secondary host IP address, where <address> is an IP address
 in the form <value>.<value>.<value>.<value> with <value> being a number between 0
@@ -16,7 +16,7 @@ IP address (if set).
 
 Example: set ip a 10.20.20.1
 
-set ip localport <value>
+### set ip localport <value>
 
 This command sets the local port number, where <value> is a decimal number representing
 the port.
@@ -25,7 +25,7 @@ Default: 2000
 Example: set ip localport 1025 // Sets the local port to 1025
 
 
-set ip dhcp <value>
+### set ip dhcp <value>
 
 This command enables/disables DHCP mode, where <value> is a decimal number. If you set this parameter, the module requests and sets the IP address, gateway, netmask, and DNS server upon association with an access point. Any previously set IP information is overwritten.
 
