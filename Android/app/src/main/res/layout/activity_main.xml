@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/blueBackground"
+    tools:context=".MainActivity" >
+
+     <Button
+         android:id="@+id/connectButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:text="Connect"
+         android:background="@drawable/rounded_button"
+         android:textColor="@color/blueBackground"
+         android:textStyle="bold" />
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/portNumberEditText"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:layout_marginBottom="28dp"
+         android:gravity="center"
+         android:text="IP Address"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="@color/blueText"
+         android:textStyle="bold" />
+
+     <EditText
+         android:id="@+id/IPEditText"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/textView1"
+         android:layout_alignLeft="@+id/textView1"
+         android:layout_alignParentRight="true"
+         android:ems="10"
+         android:gravity="center"
+         android:height="35dp"
+         android:text="192.168.1.1"
+         android:background="@drawable/rounded_edittext"
+         android:textColor="@color/blueBackground"
+         android:textStyle="bold" >
+
+         <requestFocus />
+     </EditText>
+
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentLeft="true"
+         android:layout_above="@+id/IPEditText"
+         android:src="@drawable/controller" />
+
+     <EditText
+         android:id="@+id/portNumberEditText"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/textView2"
+         android:layout_alignLeft="@+id/textView1"
+         android:layout_alignParentRight="true"
+         android:ems="10"
+         android:inputType="number"
+         android:gravity="center"
+         android:background="@drawable/rounded_edittext"
+         android:text="5050"
+         android:height="35dp"
+         android:textColor="@color/blueBackground"
+         android:textStyle="bold" />
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/connectButton"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:layout_marginBottom="16dp"
+         android:gravity="center"
+         android:text="Port Number"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="@color/blueText"
+         android:textStyle="bold" />
+
+</RelativeLayout>
