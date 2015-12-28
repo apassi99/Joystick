@@ -3,11 +3,11 @@
 This is a Joystick project which provides an android application that connects with Wifly chip 
 ( https://www.sparkfun.com/products/10822?gclid=CMHCvNeH-ckCFYEYHwodpD4NJgO )
 
-The Wifly chip hosts a TCP/IP server which listens to incomming connections. For information regarding how to setup the server and host a network on the Wifly chip checkout the Wifly/README.md. The android application can connect with the Wifly chip by connecting the boradcasting network and providing the server IP and port. The Wifly chip is configured as such that the IP address is provided by the chip and doesn't need to be hardcoded.
+The Wifly chip hosts a TCP/IP server which listens to incomming connections. For information regarding how to setup the server and host a network on the Wifly chip checkout the [Wifly/README.md](Wifly/README.md). The android application can connect with the Wifly chip by connecting to the boradcasting network and providing the server IP and port. The Wifly chip is configured as such that the IP address is provided by the chip and doesn't need to be hardcoded.
 
 # Why is it useful?
 
-This can be used to easily connect mobile devices with any embedded application over a wireless network. The Wifly chip can sit on a rover/quad. Data can easily be transfered for controlling your embedded devices or for monitoring sensor values etc.
+This can be used to easily connect mobile devices with any embedded application over a wireless network. The Wifly chip can sit on a rover/quad. Data can easily be transfered for controlling your embedded devices or for monitoring sensor values.
 
 # Higher Level Architecture
 
