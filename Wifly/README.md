@@ -33,8 +33,10 @@ Example: set ip localport 1025 // Sets the local port to 1025
 
 This command enables/disables DHCP mode, where <value> is a decimal number. If you set this parameter, the module requests and sets the IP address, gateway, netmask, and DNS server upon association with an access point. Any previously set IP information is overwritten.
 
-0 	Turns DHCP off. The module uses its stored static IP address.
-1 	Turns DHCP on. The module attempts to obtain an IP address and gateway from the access point.
-2	 Enables automatic IP, which is generally used on networks that do not have a DHCP server.
-3 	Turns on DHCP cache mode. The module uses a previously set IP address if the lease is not expired (or the lease survives reboot).
-4 	Enables DHCP server in soft AP mode. 
+| Mode          |   Protocol    |
+| ------------- | ------------- |
+| 0 	          | Turns DHCP off. The module uses its stored static IP address. |
+| 1 	          | Turns DHCP on. The module attempts to obtain an IP address and gateway from the access point. |
+| 2	            | Enables automatic IP, which is generally used on networks that do not have a DHCP server. |
+| 3 | Turns on DHCP cache mode. The module uses a previously set IP address if the lease is not expired (or the lease survives reboot).|
+| 4 	          | Enables DHCP server in soft AP mode. |
