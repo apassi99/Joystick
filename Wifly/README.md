@@ -40,3 +40,14 @@ This command enables/disables DHCP mode, where <value> is a decimal number. If y
 | 2	            | Enables automatic IP, which is generally used on networks that do not have a DHCP server. |
 | 3 | Turns on DHCP cache mode. The module uses a previously set IP address if the lease is not expired (or the lease survives reboot).|
 | 4 	          | Enables DHCP server in soft AP mode. |
+
+### set sys autoconn <value>
+ 
+This command sets the auto-connect timer in TCP mode, where <value> is a decimal number from 0 to 255 as shown in Table 2-5. Setting this parameter causes the module to connect to the stored remote host periodically as specified by <value>. 
+
+| Value     |   Description |
+| ----------| ------------- |
+| 0 	      | Disable the auto-connect timer (default). |
+| 1 	      | Connect to the stored remote host IMMEDIATELY upon power up or when waking from sleep. |
+| 2 - 254	  | Connect to a stored remote host every <value> seconds. |
+| 255       | Connect to a stored host IMMEDIATELY upon power up or when waking from sleep and go back to sleep IMMEDIATELY as soon as the TCP connection closes.|
